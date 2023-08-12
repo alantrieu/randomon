@@ -2,6 +2,7 @@
 
 const axios = require("axios");
 
+// async function that returns a random Pokemon name from PokeAPI
 async function fetchRandomPokemon() {
     try {
         const res = await axios.get('https://pokeapi.co/api/v2/pokemon');
