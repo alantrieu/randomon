@@ -3,6 +3,7 @@
 a CLI tool that prints a random Pokemon!
 
 # Installation
+
 Before you can use this application, you need to have Node.js and npm (Node Package Manager) installed on your system.
 
 ```sh
@@ -10,15 +11,19 @@ npm install -g
 ```
 
 # Usage
+
 ```sh
 randomon
 ```
 
 # Don't Like It?
+
 ```sh
-npm uninstall -g random-pokemon-cli
+npm uninstall -g randomon
 ```
+
 Check that is it gone with:
+
 ```sh
 npm ls -g --depth=0
 ```
