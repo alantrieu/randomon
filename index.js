@@ -8,7 +8,8 @@ async function fetchRandomPokemon() {
         const res = await axios.get('https://pokeapi.co/api/v2/pokemon');
         const pokemonList = res.data.results;
         const randomIndex = Math.floor(Math.random() * pokemonList.length);
-        return pokemonList[randomIndex].name;
+        const pokemonName = pokemonList[randomIndex].name
+        return pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1);
     } catch (error) {
         console.log(`oops, something went wrong! ${error.message}`);
         ProcessingInstruction.exit(1);
