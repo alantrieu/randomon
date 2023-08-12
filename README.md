@@ -16,7 +16,7 @@ Before you can use this application, you need to have Node.js and npm (Node Pack
    npm install
    ```
 
-## Running on Windows
+## Running on Windows / MacOS
 
 ```sh
 npm exec randomon
