@@ -2,43 +2,25 @@
 
 a CLI tool that prints a random Pokemon!
 
-# Installation & Usage
-
+# Installation
 Before you can use this application, you need to have Node.js and npm (Node Package Manager) installed on your system.
 
-1. Clone this repository to your local machine or download the ZIP file.
-
-2. Open your terminal and navigate to the root directory of the cloned repository.
-
-3. Install the required dependencies using npm:
-
-   ```sh
-   npm install
-   ```
-
-## Running on Windows / MacOS
-
 ```sh
-npm exec randomon
+npm install -g
 ```
 
-or
-
+# Usage
 ```sh
-node index.js
-```
-
-or
-
-```sh
-npm link
 randomon
 ```
 
-## Running on Linux / MacOS
-
+# Don't Like It?
 ```sh
-randomon
+npm uninstall -g random-pokemon-cli
+```
+Check that is it gone with:
+```sh
+npm ls -g --depth=0
 ```
 
 # Data Source
